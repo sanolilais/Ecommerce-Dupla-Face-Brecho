@@ -1,0 +1,16 @@
+:root {
+  --color-deep-champagne: hsl(41, 82%, 80%);
+  --color-alice-blue: hsl(176, 65%, 95%);
+  --color-prussian-blue: hsl(199, 85%, 18%);
+  --color-seal-brown: hsl(0, 15%, 22%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-old-silver: hsl(0, 0%, 52%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-honeydew: hsl(164, 58%, 94%);
+  --color-verdigris: hsl(176, 40%, 48%);
+  --color-platinum: hsl(0, 0%, 90%);
+  --color-davis-grey: hsl(0, 0%, 33%);
+  --color-medium-sea-green: hsl(126, 47%, 52%);
+  --color-hookers-green: hsl(176, 23%, 38%);
+  --color-pearl-aqua: hsl(175, 37%, 66%);
+}

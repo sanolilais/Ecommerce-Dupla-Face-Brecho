@@ -1,0 +1,35 @@
+body {
+  background-color: var(--color-deep-champagne);
+  height: 776px;
+}
+
+.header {
+  background-image: url(/assets/images/banner\ product.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 226px;
+  width: 375px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.menu-banner {
+  height: 70px;
+}
+
+.menu-banner ul {
+  list-style: none;
+  display: flex;
+  margin-top: 57px;
+  margin-left: 56px;
+}
+
+.menu-banner a {
+  color: var(--color-alice-blue);
+  font-family: Rosario;
+  font-weight: 700;
+  margin: 7px;
+  font-style: italic;
+  font-size: 13px;
+  text-decoration: none;
+}

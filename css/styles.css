@@ -9,19 +9,21 @@ body {
   background-size: cover;
   height: 226px;
   width: 375px;
-  margin-top: 0px;
   display: flex;
 }
 
-.menu-banner {
-  height: 70px;
+.menu-banner-desktop {
+  display: none;
+  height: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
 }
 
 .menu-banner ul {
   list-style: none;
   display: flex;
-  margin-top: 57px;
-  margin-left: 56px;
+  margin: 0px;
 }
 
 .menu-banner a {
@@ -32,4 +34,56 @@ body {
   font-style: italic;
   font-size: 13px;
   text-decoration: none;
+}
+
+.border {
+  border-bottom: solid 2px var(--color-dim-gray);
+  margin: 33px 20px 0px;
+}
+
+.menu-mobile {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: none;
+}
+
+.search {
+  background-color: var(--color-honeydew);
+  border: solid 1px var(--color-dim-gray);
+  height: 30px;
+}
+
+.searchproduct {
+  background-color: var(--color-honeydew);
+  padding-left: 5px;
+  font-size: 12px;
+  border: none;
+  width: 180px;
+  height: 26px;
+  font-family: Rosario;
+  font-weight: 700;
+  color: var(--color-black-coffee);
+}
+
+.button-search {
+  background-color: var(--color-honeydew);
+  border: none;
+  height: 29px;
+}
+
+.icon-menu {
+  margin: 25px;
+}
+
+.icons-login {
+  margin: 3px;
+}
+
+.icons-user {
+  height: 20px;
+  margin: 3px;
 }
